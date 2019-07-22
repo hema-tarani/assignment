@@ -1,0 +1,37 @@
+
+body {
+    width: 610px;
+    font-family: calibri;
+    margin:  0 auto;
+}
+
+.frmDronpDown {
+    border: 1px solid #7ddaff;
+    background-color: #C8EEFD;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.demoInputBox {
+    padding: 10px;
+    border: #bdbdbd 1px solid;
+    border-radius: 4px;
+    background-color: #FFF;
+    width: 50%;
+}
+
+.row {
+    padding-bottom: 15px
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  

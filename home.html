@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="home.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script  type="text/javascript" src="./new.js"></script> -->
+</head>
+
+<body>
+    <div class="frmDronpDown">
+        <div class="row">
+            <label>Country:</label><br /> <select name="country" id="country-list" class="demoInputBox"
+                onchange="changeFunction()">
+
+
+                <!-- <option value disabled selected  >Select Country</option> -->
+
+
+            </select>
+        </div>
+        <div class="row">
+            <label>State:</label><br /> <select name="state" id="state-list" class="demoInputBox"
+                onchange="changeFunction()">
+                <!-- <option value disabled selected>Select State</option> -->
+
+            </select>
+        </div>
+        <div class="row">
+            <label>City:</label><br /> <select name="city" id="city-list" class="demoInputBox"
+                onchange="changeFunction()">
+                <option value="">Select City</option>
+            </select>
+
+        </div>
+    </div>
+    <table id="tabledata">
+
+    </table>
+
+    <script src="file.js"></script>
+
+
+</body>
+
+</html>
